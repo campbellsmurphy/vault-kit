@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 {{HOME}}/.claude/scripts/vault-consult-guard.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 {{HOME}}/.claude/scripts/link-guard.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

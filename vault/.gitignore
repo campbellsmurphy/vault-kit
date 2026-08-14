@@ -1,0 +1,8 @@
+.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# Quarantine: never committed. See 99-restricted/README.md for exactly what
+# this does and does not protect.
+99-restricted/

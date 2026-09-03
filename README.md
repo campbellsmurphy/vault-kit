@@ -13,7 +13,7 @@ or a procedure. The skeleton is empty by design.
 ## Install
 
 ```bash
-git clone <this-repo> ~/code/vault-kit
+git clone https://github.com/campbellsmurphy/vault-kit ~/code/vault-kit
 cd ~/code/vault-kit
 ./install.sh ~/vault          # or wherever the vault should live
 ```
